@@ -13,4 +13,4 @@ module PigLatin =
         if isVowel firstChar then
             str + "way"
         else
-            str.[1..str.Length-1] + string(firstChar) + "ay"
+            str.[1..] + string(firstChar) + "ay"
